@@ -9,7 +9,7 @@ import burakcs.bitarray.BitArray;
 
 
 
-### get how many bytes is needed to store bits
+###### get how many bytes is needed to store bits
 final int getByteSize();
 
 ### get how many bits in bitarray
