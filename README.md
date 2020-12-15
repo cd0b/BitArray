@@ -3,25 +3,25 @@ BitArray class in Java PL.
 
 Usage
 
-# to import
+### to import
 import burakcs.bitarray.BitArray;
 
 
 
 
-# get how many bytes is needed to store bits
+### get how many bytes is needed to store bits
 final int getByteSize();
 
-# get how many bits in bitarray
+### get how many bits in bitarray
 final int getSize();
 
-# get a byte array from bitarray
+### get a byte array from bitarray
 final byte[] getArray();
 
 
 
 
-# create full zero bitarray in specified size
+### create full zero bitarray in specified size
 new BitArray(int size);
 
 # create bitarray from specified byte[]
