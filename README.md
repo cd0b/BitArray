@@ -38,7 +38,8 @@ new BitArray(String bitSequence);
   // all characters in string which are not '1' considered as '0'
   // example: toString(new BitArray("11abc011")) # "11000011"
   
-  
+
+ 
   
 
 ###### get identical new BitArray object
@@ -158,6 +159,12 @@ String toString(int from, int to);
   
   
   
+
+###### changing size
+final void extendTo(int size);
+
+
+
   
   
   
