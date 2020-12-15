@@ -8,14 +8,19 @@ import burakcs.exceptions.*;
 
 public class Main() {
 
+	BitArray ba;
+
 	public static void main(String[] args) {
 
-		BitArray bitArray = new BitArray(96);
+		ba = new BitArray(96);
+		print();
 
-		System.out.println(bitArray);
+	}
 
-		System.out.println();
 
+
+	private final static void print() {
+		System.out.println(ba);
 	}
 
 }
